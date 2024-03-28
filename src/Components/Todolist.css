@@ -1,0 +1,77 @@
+.title {
+  text-align: center;
+  color: #26ffcb;
+  font-size: 30px;
+  margin: 40px;
+}
+
+* {
+  background-color: #1f3540;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+}
+
+.completed {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.add {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+
+}
+
+.addBox,
+.compBox {
+  height: 500px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  margin-left: 59px;
+  margin-top: 50px;
+  border: 4px solid blue;
+  border-radius: 4px;
+}
+
+
+.boxes-container {
+  display: flex;
+ 
+  justify-content: space-between;
+}
+.compBox{
+  margin-right: 550px;
+  border: 4px solid green;
+}
+input::placeholder {
+  color:white; /* Example placeholder color */
+  font-style: italic; /* Example italic style */
+  background-color:white;
+}
+input{
+  color: white;
+}
+li{
+  cursor: pointer;
+}
+.title1{
+  color: white;
+  text-align: center;
+}
+del {
+  text-decoration: line-through;
+}
+.performance{
+ color: #26ffcb;
+ margin-right: 50px;
+
+}
